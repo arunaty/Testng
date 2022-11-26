@@ -32,14 +32,11 @@ public class qavboxlinks {
 		}
 
 		Set<String> idCh = driver.getWindowHandles();
-		for(int i=0;i<=10;i++){
-		
-		System.out.println(i);
-		System.out.println(i);
+
+		for (int i = 0; i <= 10; i++) {
+
+			driver.findElement(By.xpath(""));
 		}
-		
-		
-		
 
 		ArrayList<String> arid = new ArrayList<String>(idCh);
 
