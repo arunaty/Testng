@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected Userid = Lakhan A.]]>
+    </line>
+    <line>
+      <![CDATA[Actual Userid = Lakhan A.]]>
+    </line>
+    <line>
+      <![CDATA[The User Loggined is same]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-15T12:34:07 IST" name="Default suite" finished-at="2022-11-15T12:34:25 IST" duration-ms="17965">
+    <groups>
+    </groups>
+    <test started-at="2022-11-15T12:34:07 IST" name="Default test" finished-at="2022-11-15T12:34:25 IST" duration-ms="17965">
+      <class name="UpstoxLoginTestNgWithproperyfiles.UpstoxTestClassTestng">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:UpstoxLoginTestNgWithproperyfiles.UpstoxTestClassTestng@43195e57]" started-at="2022-11-15T12:34:07 IST" name="openBrowser" finished-at="2022-11-15T12:34:10 IST" duration-ms="3575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="login()[pri:0, instance:UpstoxLoginTestNgWithproperyfiles.UpstoxTestClassTestng@43195e57]" started-at="2022-11-15T12:34:10 IST" name="login" finished-at="2022-11-15T12:34:18 IST" duration-ms="7252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyusertng()[pri:0, instance:UpstoxLoginTestNgWithproperyfiles.UpstoxTestClassTestng@43195e57]" started-at="2022-11-15T12:34:18 IST" name="verifyusertng" finished-at="2022-11-15T12:34:19 IST" depends-on-methods="UpstoxLoginTestNgWithproperyfiles.UpstoxTestClassTestng.login" duration-ms="936" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected Userid = Lakhan A.]]>
+            </line>
+            <line>
+              <![CDATA[Actual Userid = Lakhan A.]]>
+            </line>
+            <line>
+              <![CDATA[The User Loggined is same]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyusertng -->
+        <test-method signature="logout()[pri:0, instance:UpstoxLoginTestNgWithproperyfiles.UpstoxTestClassTestng@43195e57]" started-at="2022-11-15T12:34:19 IST" name="logout" finished-at="2022-11-15T12:34:24 IST" depends-on-methods="UpstoxLoginTestNgWithproperyfiles.UpstoxTestClassTestng.verifyusertng" duration-ms="5681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:UpstoxLoginTestNgWithproperyfiles.UpstoxTestClassTestng@43195e57]" started-at="2022-11-15T12:34:24 IST" name="closeBrowser" finished-at="2022-11-15T12:34:25 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- UpstoxLoginTestNgWithproperyfiles.UpstoxTestClassTestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

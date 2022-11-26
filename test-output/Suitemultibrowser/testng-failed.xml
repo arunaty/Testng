@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suitemultibrowser]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestOpera(failed)">
+    <parameter name="browsername" value="opera"/>
+    <classes>
+      <class name="MultiBrowserTesting.ParameterMultibrowser">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="runOpen"/>
+        </methods>
+      </class> <!-- MultiBrowserTesting.ParameterMultibrowser -->
+    </classes>
+  </test> <!-- TestOpera(failed) -->
+</suite> <!-- Failed suite [Suitemultibrowser] -->
